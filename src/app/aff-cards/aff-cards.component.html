@@ -1,0 +1,13 @@
+<div class="row">
+    <div *ngFor="let item of sh.heros" class="col-4 mt-4" >
+       <div class="card p-2" style="width: 18rem;" [ngClass]="{'bgMd':item.power>=50 && item.power<80,'bgStr':item.power>=80,'bgWk':item.power<50}">
+         <img src="{{item.img}}" class="card-img-top w-100" alt="Luffy">
+         <div class="card-body">
+           <h2>{{item.name}}</h2>
+           <p class="card-text">{{item.power}}</p>
+         </div>
+       </div>
+     </div>
+
+   
+   </div>

@@ -1,0 +1,21 @@
+.bgMd{
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bgStr{
+    background-color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;   
+}
+.bgWk{
+    background-color: aqua;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.btn{
+    background-color: #FF33D1;
+}
+
+body{
+    margin: 0;
+    background-color: #33FFF3;
+}
+
